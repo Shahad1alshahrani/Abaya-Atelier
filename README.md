@@ -46,9 +46,14 @@ Database file:
 
 `database/abaya_atelier-2.sql`
 
+
 ## Website Preview
 
-Screenshots of the website interface will be added here.
+<p align="center">
+  <img src="images/home-preview.png" width="260" height="180">
+  <img src="images/products-preview.png" width="260" height="180">
+  <img src="images/admin-preview.png" width="260" height="180">
+</p>
 
 ## Project Type
 
