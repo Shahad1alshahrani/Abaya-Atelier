@@ -1,0 +1,118 @@
+<!-- yaqeen Al-Marhoon -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Abaya Atelier | cart</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="cart-page">
+
+<header>
+  <div class="container header-container">
+    <img class="logo" src="../images/logo.png" alt="Elegant Abaya Collection Banner">
+    <nav>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="help.html">Help</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<main>
+  <section class="container cart-page-section">
+    <h1>Shopping Cart</h1>
+    <p class="cart-subtitle">Here are the items you selected.</p>
+
+    <div class="cart-wrap">
+      <!-- LEFT: table -->
+      <div class="cart-left">
+        <table class="cart-table">
+          <thead>
+            <tr>
+              <th>Product</th>
+              <th>Quantity</th>
+              <th>Price</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>
+                <div class="cart-product">
+                  <img class="cart-thumb" src="../images/Classic Black Abaya.jpg" alt="Classic Black Abaya">
+                  <span>Classic Black Abaya</span>
+                </div>
+              </td>
+              <td><input class="qty" type="number" value="1" min="1"></td>
+              <td>299 SAR</td>
+              <td>299 SAR</td>
+            </tr>
+
+            <tr>
+              <td>
+                <div class="cart-product">
+                  <img class="cart-thumb" src="../images/Elegant Black.jpeg" alt="Elegant Grey Abaya">
+                  <span>Elegant Grey Abaya</span>
+                </div>
+              </td>
+              <td><input class="qty" type="number" value="2" min="1"></td>
+              <td>349 SAR</td>
+              <td>698 SAR</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- RIGHT: summary -->
+      <aside class="cart-right">
+        <div class="summary-box">
+          <h2>Order Summary</h2>
+
+          <div class="summary-row">
+            <span>Items total</span>
+            <span>997 SAR</span>
+          </div>
+
+          <div class="summary-row">
+            <span>VAT (15%)</span>
+            <span>150 SAR</span>
+          </div>
+
+          <hr>
+
+          <div class="summary-row total">
+            <span>Final total</span>
+            <span>1147 SAR</span>
+          </div>
+
+          <a href="checkout.html" class="btn summary-btn">Proceed to Checkout</a>
+          <p class="note">* VAT Inclusive</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+</main>
+
+<footer>
+  <div class="container footer-container">
+    <p>&copy; 2026 Abaya Store. All rights reserved.</p>
+    <p>Email: info@abayastore.com | Phone: +966 533458857</p>
+  </div>
+</footer>
+
+</body>
+</html>

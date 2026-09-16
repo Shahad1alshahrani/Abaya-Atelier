@@ -1,0 +1,112 @@
+<!-- Joud Alotaibi -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Abaya Atelier | Add Product</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="register-page">
+
+
+<header>
+<div class="container header-container">
+
+<img src="../images/logo.png" class="logo" alt="Abaya Atelier Logo">
+
+<nav>
+<ul class="nav-links">
+
+<li><a href="AdminHome.html">Home</a></li>
+<li><a href="mange.proudct.html">Manage Products</a></li>
+<li><a href="add-product.html">Add Product</a></li>
+<li><a href="orders.html">Orders</a></li>
+<li><a href="../index.html">Logout</a></li>
+
+</ul>
+</nav>
+
+</div>
+</header>
+<section class="form-container">
+
+  <h2 class="form-title">Add New Product</h2>
+
+  <form>
+
+    <!-- Product Name -->
+    <label for="name">Product Name</label>
+    <input type="text" id="name" placeholder="Enter product name" required>
+
+    <!-- Price -->
+    <label for="price">Price (﷼)</label>
+    <input type="number"
+           id="price"
+           placeholder="Enter price"
+           min="0"
+           step="0.01"
+           required>
+
+    <!-- Sizes & Stock -->
+    <label>Sizes & Quantity (cm)</label>
+
+    <div class="size-stock">
+      <span>50 cm</span>
+      <input type="number" min="0" placeholder="Qty">
+    </div>
+
+    <div class="size-stock">
+      <span>52 cm</span>
+      <input type="number" min="0" placeholder="Qty">
+    </div>
+
+    <div class="size-stock">
+      <span>54 cm</span>
+      <input type="number" min="0" placeholder="Qty">
+    </div>
+
+    <div class="size-stock">
+      <span>56 cm</span>
+      <input type="number" min="0" placeholder="Qty">
+    </div>
+
+    <div class="size-stock">
+      <span>58 cm</span>
+      <input type="number" min="0" placeholder="Qty">
+    </div>
+
+    <div class="size-stock">
+      <span>60 cm</span>
+      <input type="number" min="0" placeholder="Qty">
+    </div>
+
+    <!-- Color -->
+    <label for="color">Color</label>
+    <input type="text" id="color" placeholder="Black, Beige..." required>
+
+    <!-- Description -->
+    <label for="description">Description</label>
+    <textarea id="description" placeholder="Enter product description" required></textarea>
+
+    <!-- Image Upload -->
+    <label for="image">Product Image</label>
+    <input type="file" id="image" accept="image/*" required>
+
+    <button type="submit">Add Product</button>
+
+  </form>
+
+</section>
+
+<footer>
+    <div class="container footer-container">
+        <p>&copy; 2026 Abaya Store. All rights reserved.</p>
+        <p>Email: info@abayastore.com | Phone: +966 533458857</p>
+    </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,111 @@
+<?php session_start(); ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Abaya Atelier | Help</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="container header-container">
+    <img class="logo" src="../images/logo.png" alt="Elegant Abaya Collection Banner">
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="../index.php">Home</a></li>
+        <li><a href="products.php">Products</a></li>
+        <li><a href="about.php">About Us</a></li>
+        <li><a href="contact.php">Contact</a></li>
+        <li><a href="login.php">Login</a></li>
+        <li><a href="register.php">Register</a></li>
+        <li><a href="cart.php">Cart</a></li>
+        <li><a href="help.php">Help</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="about-hero-simple">
+  <div class="container">
+    <h1>Help & FAQ</h1>
+    <p>If you have questions about our abayas or your order, you may find the answers below.</p>
+  </div>
+</section>
+
+<section class="about">
+  <div class="container">
+
+    <details>
+      <summary>How can I place an order?</summary>
+      <p>
+      Browse our collection, choose your favorite abaya, and click <mark>Add to Cart</mark>.
+      Then proceed to checkout to complete your order.
+      </p>
+    </details>
+
+    <details>
+      <summary>How long does delivery take?</summary>
+      <p>
+      Delivery usually takes between 2–5 business days inside Saudi Arabia.
+      </p>
+    </details>
+
+    <details>
+      <summary>Can I return or exchange an abaya?</summary>
+      <p>
+      Yes, returns and exchanges are available within 7 days if the item is unused
+      and in its original condition.
+      </p>
+    </details>
+
+    <aside>
+      <p><mark>Need more help?</mark> Contact our support team through the contact page.</p>
+    </aside>
+
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="container footer-container">
+    <p>&copy; 2026 Abaya Store. All rights reserved.</p>
+    <p>Email: info@abayastore.com | Phone: +966 533458857</p>
+  </div>
+</footer>
+
+<script>
+
+const allQuestions = document.querySelectorAll("details");
+
+allQuestions.forEach((item) => {
+
+    item.addEventListener("toggle", () => {
+
+        if(item.open){
+
+            allQuestions.forEach((otherItem) => {
+
+                if(otherItem !== item){
+
+                    otherItem.open = false;
+                }
+
+            });
+
+        }
+
+    });
+
+});
+
+</script>
+
+</body>
+</html>
