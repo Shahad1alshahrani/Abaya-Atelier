@@ -50,9 +50,9 @@ Database file:
 ## Website Preview
 
 <p align="center">
-  <img src="images/home-preview.png" height="180">
-  <img src="images/products-preview.png" height="180">
-  <img src="images/admin-preview.png" height="180">
+  <img src="images/home-preview.png" height="260">
+  <img src="images/products-preview.png" height="260">
+  <img src="images/admin-preview.png" height="260">
 </p>
 
 ## Project Type
